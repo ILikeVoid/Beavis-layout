@@ -511,7 +511,6 @@
     display: flex;
     justify-content: space-between;
     height: 100px;
-    margin: 0 7%;
   }
   .main .title .header-mobile .menu-bar {
     width: 100px;
@@ -533,13 +532,11 @@
   }
   .main .title .title-boy-mobile img {
     position: absolute;
-    top: 37px;
+    top: -30px;
     width: 190px;
   }
   .main .publication .publication-items {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 25px;
   }
   .main .publication .publication-items img {

@@ -677,7 +677,6 @@
         display: flex;
         justify-content: space-between;
         height: 100px;
-        margin: 0 7%;
 
         .menu-bar {
           width: 100px;
@@ -709,7 +708,7 @@
 
         img {
           position: absolute;
-          top: 37px;
+          top: -30px;
           width: 190px;
         }
       }
@@ -718,8 +717,6 @@
     .publication {
       .publication-items {
         display: flex;
-        flex-direction: column;
-        align-items: center;
         gap: 25px;
 
         img {
