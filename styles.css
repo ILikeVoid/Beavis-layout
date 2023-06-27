@@ -17,6 +17,9 @@
   background-position: center;
   background-size: cover;
 }
+.main .title .header-mobile {
+  display: none;
+}
 .main .title header {
   display: flex;
   justify-content: space-between;
@@ -312,6 +315,39 @@
   width: 370px;
 }
 
+.adaptive-menu {
+  display: none;
+  transition: 0.3s;
+  width: 50%;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: #6BB8C8;
+  box-shadow: 0 3px 12px -4px rgba(0, 0, 0, 0.7);
+}
+.adaptive-menu img {
+  width: 60px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.adaptive-menu .navbar {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: start;
+  padding-left: 20px;
+}
+.adaptive-menu .navbar div {
+  transition: 0.6s;
+}
+.adaptive-menu .navbar div a {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
 @media screen and (max-width: 1400px) {
   .main .title .title-items {
     margin-top: 40px;
@@ -452,7 +488,38 @@
   }
 }
 @media screen and (max-width: 992px) {
-  .main .title header nav {
+  .main .adaptive-menu {
+    width: 60%;
+  }
+  .main .adaptive-menu .navbar {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+    padding-left: 40px;
+  }
+  .main .adaptive-menu .navbar div {
+    transition: 0.6s;
+  }
+  .main .adaptive-menu .navbar div a {
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+  }
+  .main .title .header-mobile {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin: 0 7%;
+  }
+  .main .title .header-mobile .menu-bar {
+    width: 100px;
+  }
+  .main .title .header-mobile img {
+    width: 200px;
+  }
+  .main .title header {
     display: none;
   }
   .main .title .title-items .title-text h1 {
@@ -466,7 +533,7 @@
   }
   .main .title .title-boy-mobile img {
     position: absolute;
-    top: 17px;
+    top: 37px;
     width: 190px;
   }
   .main .publication .publication-items {
