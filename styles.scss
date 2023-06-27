@@ -6,12 +6,11 @@
 }
 
 .main {
-  background: #6BB8C8;
   font-family: "Holiday Cheer", sans-serif;
 
   h1 {
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: white;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    2px 2px #fff, -2px -2px #fff, 2px -2px #fff, -2px 2px #fff;
     font-size: 90px;
   }
 
@@ -207,19 +206,16 @@
           align-items: center;
 
           .balance-title {
-            font-size: 27px;
+            font-size: 48px;
           }
 
           .coin-name {
             margin-left: 20px;
-
-            span {
-              color: #00FFE0
-            }
+            color: #EFE564;
           }
 
           span {
-            font-size: 42px;
+            font-size: 64px;
             color: white;
           }
 
@@ -237,6 +233,116 @@
               box-shadow: 0 0 30px gray;
             }
           }
+        }
+      }
+    }
+  }
+
+  .instructions {
+    padding: 90px 0;
+
+    h1 {
+      text-align: center;
+    }
+
+    .instructions-items {
+      display: flex;
+      gap: 40px;
+      margin-top: 100px;
+
+      .instructions-block {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+
+        .instruction {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+
+          .instruction-text {
+            .instruction-title {
+              font-size: 64px;
+              text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+              2px 2px #fff, -2px -2px #fff, 2px -2px #fff, -2px 2px #fff;
+            }
+
+            span {
+              display: block;
+              color: black;
+              font-size: 40px;
+              text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+              2px 2px #fff, -2px -2px #fff, 2px -2px #fff, -2px 2px #fff;
+            }
+          }
+
+          img {
+            width: 100px;
+          }
+        }
+      }
+    }
+  }
+
+  .roadmap {
+    h1 {
+      text-align: center;
+    }
+
+    .roadmap-items {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+
+      .phase {
+        background: #729FA7;
+        padding: 40px 50px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-size: 40px;
+        border-radius: 20px;
+
+        h3 {
+          font-size: 40px;
+        }
+
+        span {
+          padding-left: 30px;
+        }
+      }
+    }
+  }
+
+  .diagram {
+    margin-top: 80px;
+
+    h1 {
+      text-align: center;
+    }
+
+    img {
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .total {
+      margin-top: 60px;
+      background: #729FA7;
+      border-radius: 20px;
+
+      .total-items {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 40px;
+
+        span {
+          margin-top: 40px;
+          color: white;
+          font-size: 36px;
+          display: block;
         }
       }
     }
