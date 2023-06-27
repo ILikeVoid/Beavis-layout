@@ -1,0 +1,201 @@
+@font-face {
+  font-family: Holiday Cheer;
+  src: url("/fonts/holiday_cheer/Holiday Cheer.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+.main {
+  background: #6BB8C8;
+  font-family: "Holiday Cheer", sans-serif;
+}
+.main h1 {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  font-size: 90px;
+}
+.main .title {
+  background-image: url("/images/title-bg-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.main .title header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.main .title header nav {
+  display: flex;
+  gap: 30px;
+  font-size: 30px;
+}
+.main .title header nav a {
+  text-decoration: none;
+  color: black;
+}
+.main .title .title-items {
+  display: flex;
+  position: relative;
+}
+.main .title .title-items .title-boy_block {
+  display: flex;
+  align-items: flex-end;
+}
+.main .title .title-items .title-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  width: 100%;
+}
+.main .title .title-items .title-text h1 {
+  width: 65%;
+  text-align: right;
+  font-size: 90px;
+  color: black;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+}
+.main .title .title-items .title-text div {
+  width: 65%;
+  margin-top: 40px;
+  text-align: right;
+  font-size: 40px;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 2px 2px #fff, -2px -2px #fff, 2px -2px #fff, -2px 2px #fff;
+}
+.main .video {
+  margin-top: 80px;
+}
+.main .video iframe {
+  border: 10px solid white;
+  border-radius: 40px;
+}
+.main .about {
+  margin-top: 80px;
+}
+.main .about h1 {
+  text-align: center;
+}
+.main .about .about-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+.main .about .about-items .about-text {
+  font-size: 40px;
+}
+.main .wallet {
+  padding: 60px 0;
+}
+.main .wallet .wallet-block {
+  background: #729FA7;
+  border-radius: 30px;
+  display: flex;
+  padding: 47px 95px;
+}
+.main .wallet .wallet-block .col-1 {
+  width: 50%;
+  border-right: 1px solid white;
+}
+.main .wallet .wallet-block .col-1 img {
+  width: 135px;
+  height: 135px;
+  display: block;
+}
+.main .wallet .wallet-block .col-1 .wallet-title {
+  margin-top: 25px;
+  display: flex;
+  font-size: 40px;
+}
+.main .wallet .wallet-block .col-1 .balance .coin {
+  color: #EFE564;
+  margin-left: 35px;
+}
+.main .wallet .wallet-block .col-1 .balance span {
+  font-size: 90px;
+}
+.main .wallet .wallet-block .col-1 .buttons {
+  width: 100%;
+  display: flex;
+  gap: 57px;
+}
+.main .wallet .wallet-block .col-1 .buttons .add {
+  background: inherit;
+  box-shadow: none;
+  border: 1px solid #FFFFFF;
+  color: white;
+}
+.main .wallet .wallet-block .col-1 .buttons .add:hover {
+  color: gray;
+  border: 1px solid gray;
+  box-shadow: none;
+}
+.main .wallet .wallet-block .col-1 .buttons button {
+  margin-top: 40px;
+  display: block;
+  background: #EFE564;
+  border-radius: 35.2949px;
+  border: none;
+  font-size: 40px;
+  transition: 0.3s;
+  padding: 17px 53px;
+}
+.main .wallet .wallet-block .col-1 .buttons button:hover {
+  box-shadow: 0 0 30px gray;
+}
+.main .wallet .wallet-block .col-1 span {
+  color: white;
+}
+.main .wallet .wallet-block .col-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .wallet .wallet-block .col-2 .coin-balance {
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.main .wallet .wallet-block .col-2 .coin-balance span {
+  font-size: 40px;
+  width: auto;
+  display: block;
+  color: white;
+}
+.main .wallet .wallet-block .col-2 .balance {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .wallet .wallet-block .col-2 .balance .balance-title {
+  font-size: 27px;
+}
+.main .wallet .wallet-block .col-2 .balance .coin-name {
+  margin-left: 20px;
+}
+.main .wallet .wallet-block .col-2 .balance .coin-name span {
+  color: #00FFE0;
+}
+.main .wallet .wallet-block .col-2 .balance span {
+  font-size: 42px;
+  color: white;
+}
+.main .wallet .wallet-block .col-2 .balance button {
+  background: #EFE564;
+  margin-top: 60px;
+  display: block;
+  border-radius: 35.2949px;
+  border: none;
+  font-size: 20px;
+  transition: 0.3s;
+  padding: 17px 53px;
+}
+.main .wallet .wallet-block .col-2 .balance button:hover {
+  box-shadow: 0 0 30px gray;
+}
+
+/*# sourceMappingURL=styles.css.map */
